@@ -1,0 +1,3 @@
+ cnpm install pug sass-loader node-sass --save-dev
+ cnpm install bootstrap-sass --save
+ cnpm install bootstrap-sass --save
