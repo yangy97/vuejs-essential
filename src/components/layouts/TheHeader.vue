@@ -24,6 +24,8 @@
 
   <!-- 入口组件 -->
   <div class="navbar-right">
+	  <!-- 搜索框 -->
+<SearchInput/>
     <TheEntry/>
   </div>
 </div>
@@ -34,11 +36,13 @@
 <script>
 	//引入入口组件
 	import TheEntry from '@/components/layouts/TheEntry'
+	import SearchInput from '@/components/layouts/SearchInput'
 export default {
 	
   name: 'TheHeader',
     components: {
-    TheEntry
+    TheEntry,
+	 SearchInput
   },
   data() {
     return {
